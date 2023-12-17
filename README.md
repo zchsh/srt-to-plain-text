@@ -16,3 +16,7 @@ node ./demo.mjs examples/openai-whisper-subtitles.srt
 ```
 
 After running the above commands from the root of this project, output files should be written to an `output` folder at the root of this project.
+
+Here's a screenshot of the two examples next to each other:
+
+![A screenshot showing how OpenAI Whisper manages to generate much more accurate subtitles than YouTube's automatically generated subtitles.](examples/examples-result.png)
