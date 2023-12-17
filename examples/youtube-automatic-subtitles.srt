@@ -1,0 +1,1875 @@
+1
+00:00:00,840 --> 00:00:02,590
+
+hi everyone and welcome to the first
+
+2
+00:00:02,590 --> 00:00:02,600
+hi everyone and welcome to the first
+ 
+
+3
+00:00:02,600 --> 00:00:04,309
+hi everyone and welcome to the first
+lesson of the generative AI for
+
+4
+00:00:04,309 --> 00:00:04,319
+lesson of the generative AI for
+ 
+
+5
+00:00:04,319 --> 00:00:07,269
+lesson of the generative AI for
+beginners course this course is based on
+
+6
+00:00:07,269 --> 00:00:07,279
+beginners course this course is based on
+ 
+
+7
+00:00:07,279 --> 00:00:09,230
+beginners course this course is based on
+an open source curriculum with the same
+
+8
+00:00:09,230 --> 00:00:09,240
+an open source curriculum with the same
+ 
+
+9
+00:00:09,240 --> 00:00:13,230
+an open source curriculum with the same
+name available on gab I'm Carlota cucho
+
+10
+00:00:13,230 --> 00:00:13,240
+name available on gab I'm Carlota cucho
+ 
+
+11
+00:00:13,240 --> 00:00:15,749
+name available on gab I'm Carlota cucho
+AI Cloud Advocate at Microsoft and in
+
+12
+00:00:15,749 --> 00:00:15,759
+AI Cloud Advocate at Microsoft and in
+ 
+
+13
+00:00:15,759 --> 00:00:17,910
+AI Cloud Advocate at Microsoft and in
+this video I'm going to introduce you to
+
+14
+00:00:17,910 --> 00:00:17,920
+this video I'm going to introduce you to
+ 
+
+15
+00:00:17,920 --> 00:00:20,630
+this video I'm going to introduce you to
+generative Ai and large language
+
+16
+00:00:20,630 --> 00:00:20,640
+generative Ai and large language
+ 
+
+17
+00:00:20,640 --> 00:00:23,429
+generative Ai and large language
+models large language models represent
+
+18
+00:00:23,429 --> 00:00:23,439
+models large language models represent
+ 
+
+19
+00:00:23,439 --> 00:00:25,910
+models large language models represent
+the Pinnacle of AI technology pushing
+
+20
+00:00:25,910 --> 00:00:25,920
+the Pinnacle of AI technology pushing
+ 
+
+21
+00:00:25,920 --> 00:00:29,189
+the Pinnacle of AI technology pushing
+the boundaries of what was once thought
+
+22
+00:00:29,189 --> 00:00:29,199
+the boundaries of what was once thought
+ 
+
+23
+00:00:29,199 --> 00:00:31,669
+the boundaries of what was once thought
+impossible they've concered numerous
+
+24
+00:00:31,669 --> 00:00:31,679
+impossible they've concered numerous
+ 
+
+25
+00:00:31,679 --> 00:00:33,869
+impossible they've concered numerous
+challenges that older language models
+
+26
+00:00:33,869 --> 00:00:33,879
+challenges that older language models
+ 
+
+27
+00:00:33,879 --> 00:00:36,350
+challenges that older language models
+struggled with achieving human level
+
+28
+00:00:36,350 --> 00:00:36,360
+struggled with achieving human level
+ 
+
+29
+00:00:36,360 --> 00:00:39,150
+struggled with achieving human level
+performance in various task they have
+
+30
+00:00:39,150 --> 00:00:39,160
+performance in various task they have
+ 
+
+31
+00:00:39,160 --> 00:00:41,389
+performance in various task they have
+several capabilities and applications
+
+32
+00:00:41,389 --> 00:00:41,399
+several capabilities and applications
+ 
+
+33
+00:00:41,399 --> 00:00:43,470
+several capabilities and applications
+but for this course we'll explore how
+
+34
+00:00:43,470 --> 00:00:43,480
+but for this course we'll explore how
+ 
+
+35
+00:00:43,480 --> 00:00:45,029
+but for this course we'll explore how
+large language models are
+
+36
+00:00:45,029 --> 00:00:45,039
+large language models are
+ 
+
+37
+00:00:45,039 --> 00:00:47,709
+large language models are
+revolutionizing education through a
+
+38
+00:00:47,709 --> 00:00:47,719
+revolutionizing education through a
+ 
+
+39
+00:00:47,719 --> 00:00:49,709
+revolutionizing education through a
+fictional startup that we'll be
+
+40
+00:00:49,709 --> 00:00:49,719
+fictional startup that we'll be
+ 
+
+41
+00:00:49,719 --> 00:00:53,670
+fictional startup that we'll be
+referring to as our startup our startup
+
+42
+00:00:53,670 --> 00:00:53,680
+referring to as our startup our startup
+ 
+
+43
+00:00:53,680 --> 00:00:55,270
+referring to as our startup our startup
+works in the education domain with the
+
+44
+00:00:55,270 --> 00:00:55,280
+works in the education domain with the
+ 
+
+45
+00:00:55,280 --> 00:00:57,189
+works in the education domain with the
+ambitious mission of improving
+
+46
+00:00:57,189 --> 00:00:57,199
+ambitious mission of improving
+ 
+
+47
+00:00:57,199 --> 00:00:59,349
+ambitious mission of improving
+accessibility in learning on a global
+
+48
+00:00:59,349 --> 00:00:59,359
+accessibility in learning on a global
+ 
+
+49
+00:00:59,359 --> 00:01:01,950
+accessibility in learning on a global
+scale ensuring Equitable access to
+
+50
+00:01:01,950 --> 00:01:01,960
+scale ensuring Equitable access to
+ 
+
+51
+00:01:01,960 --> 00:01:04,590
+scale ensuring Equitable access to
+education and providing personalized
+
+52
+00:01:04,590 --> 00:01:04,600
+education and providing personalized
+ 
+
+53
+00:01:04,600 --> 00:01:06,990
+education and providing personalized
+learning experiences to every learner
+
+54
+00:01:06,990 --> 00:01:07,000
+learning experiences to every learner
+ 
+
+55
+00:01:07,000 --> 00:01:09,749
+learning experiences to every learner
+according to their needs in this course
+
+56
+00:01:09,749 --> 00:01:09,759
+according to their needs in this course
+ 
+
+57
+00:01:09,759 --> 00:01:12,190
+according to their needs in this course
+we'll dive into how our startup
+
+58
+00:01:12,190 --> 00:01:12,200
+we'll dive into how our startup
+ 
+
+59
+00:01:12,200 --> 00:01:14,870
+we'll dive into how our startup
+harnesses the power of generative AI to
+
+60
+00:01:14,870 --> 00:01:14,880
+harnesses the power of generative AI to
+ 
+
+61
+00:01:14,880 --> 00:01:17,870
+harnesses the power of generative AI to
+unlock new possibilities in education
+
+62
+00:01:17,870 --> 00:01:17,880
+unlock new possibilities in education
+ 
+
+63
+00:01:17,880 --> 00:01:20,469
+unlock new possibilities in education
+we'll also examine how to address the
+
+64
+00:01:20,469 --> 00:01:20,479
+we'll also examine how to address the
+ 
+
+65
+00:01:20,479 --> 00:01:22,710
+we'll also examine how to address the
+inevitable challenges tied to the social
+
+66
+00:01:22,710 --> 00:01:22,720
+inevitable challenges tied to the social
+ 
+
+67
+00:01:22,720 --> 00:01:25,030
+inevitable challenges tied to the social
+impact of these technology and its
+
+68
+00:01:25,030 --> 00:01:25,040
+impact of these technology and its
+ 
+
+69
+00:01:25,040 --> 00:01:26,230
+impact of these technology and its
+technology
+
+70
+00:01:26,230 --> 00:01:26,240
+technology
+ 
+
+71
+00:01:26,240 --> 00:01:28,710
+technology
+limitations but let's start by defining
+
+72
+00:01:28,710 --> 00:01:28,720
+limitations but let's start by defining
+ 
+
+73
+00:01:28,720 --> 00:01:30,429
+limitations but let's start by defining
+some basic concept with will be using
+
+74
+00:01:30,429 --> 00:01:30,439
+some basic concept with will be using
+ 
+
+75
+00:01:30,439 --> 00:01:31,870
+some basic concept with will be using
+throughout the
+
+76
+00:01:31,870 --> 00:01:31,880
+throughout the
+ 
+
+77
+00:01:31,880 --> 00:01:34,149
+throughout the
+course despite the recent hype
+
+78
+00:01:34,149 --> 00:01:34,159
+course despite the recent hype
+ 
+
+79
+00:01:34,159 --> 00:01:36,950
+course despite the recent hype
+surrounding gen AI this technology has
+
+80
+00:01:36,950 --> 00:01:36,960
+surrounding gen AI this technology has
+ 
+
+81
+00:01:36,960 --> 00:01:38,990
+surrounding gen AI this technology has
+been decades in the making with its
+
+82
+00:01:38,990 --> 00:01:39,000
+been decades in the making with its
+ 
+
+83
+00:01:39,000 --> 00:01:42,270
+been decades in the making with its
+Origins tressing back to the 1950s
+
+84
+00:01:42,270 --> 00:01:42,280
+Origins tressing back to the 1950s
+ 
+
+85
+00:01:42,280 --> 00:01:45,350
+Origins tressing back to the 1950s
+1960s the earliest AI prototypes
+
+86
+00:01:45,350 --> 00:01:45,360
+1960s the earliest AI prototypes
+ 
+
+87
+00:01:45,360 --> 00:01:47,389
+1960s the earliest AI prototypes
+consisted of typewritten chatbots
+
+88
+00:01:47,389 --> 00:01:47,399
+consisted of typewritten chatbots
+ 
+
+89
+00:01:47,399 --> 00:01:50,469
+consisted of typewritten chatbots
+relying on knowledge bases maintained by
+
+90
+00:01:50,469 --> 00:01:50,479
+relying on knowledge bases maintained by
+ 
+
+91
+00:01:50,479 --> 00:01:52,990
+relying on knowledge bases maintained by
+experts these chatbots generated
+
+92
+00:01:52,990 --> 00:01:53,000
+experts these chatbots generated
+ 
+
+93
+00:01:53,000 --> 00:01:55,270
+experts these chatbots generated
+responses based on keywords found in
+
+94
+00:01:55,270 --> 00:01:55,280
+responses based on keywords found in
+ 
+
+95
+00:01:55,280 --> 00:01:57,950
+responses based on keywords found in
+user input but it soon became clear that
+
+96
+00:01:57,950 --> 00:01:57,960
+user input but it soon became clear that
+ 
+
+97
+00:01:57,960 --> 00:02:00,270
+user input but it soon became clear that
+this approach had scalability Li
+
+98
+00:02:00,270 --> 00:02:00,280
+this approach had scalability Li
+ 
+
+99
+00:02:00,280 --> 00:02:03,029
+this approach had scalability Li
+itations a significant Turning Point
+
+100
+00:02:03,029 --> 00:02:03,039
+itations a significant Turning Point
+ 
+
+101
+00:02:03,039 --> 00:02:05,950
+itations a significant Turning Point
+arrived in the 1990s when a statistical
+
+102
+00:02:05,950 --> 00:02:05,960
+arrived in the 1990s when a statistical
+ 
+
+103
+00:02:05,960 --> 00:02:09,229
+arrived in the 1990s when a statistical
+approach was applied to text analysis
+
+104
+00:02:09,229 --> 00:02:09,239
+approach was applied to text analysis
+ 
+
+105
+00:02:09,239 --> 00:02:10,790
+approach was applied to text analysis
+this gave birth to Mach learning
+
+106
+00:02:10,790 --> 00:02:10,800
+this gave birth to Mach learning
+ 
+
+107
+00:02:10,800 --> 00:02:12,710
+this gave birth to Mach learning
+algorithms which could learn pattern
+
+108
+00:02:12,710 --> 00:02:12,720
+algorithms which could learn pattern
+ 
+
+109
+00:02:12,720 --> 00:02:15,869
+algorithms which could learn pattern
+from data without explicit programming
+
+110
+00:02:15,869 --> 00:02:15,879
+from data without explicit programming
+ 
+
+111
+00:02:15,879 --> 00:02:17,910
+from data without explicit programming
+these algorithms allowed machines to
+
+112
+00:02:17,910 --> 00:02:17,920
+these algorithms allowed machines to
+ 
+
+113
+00:02:17,920 --> 00:02:19,990
+these algorithms allowed machines to
+simulate human language understanding
+
+114
+00:02:19,990 --> 00:02:20,000
+simulate human language understanding
+ 
+
+115
+00:02:20,000 --> 00:02:22,949
+simulate human language understanding
+Paving the way for the AI we know today
+
+116
+00:02:22,949 --> 00:02:22,959
+Paving the way for the AI we know today
+ 
+
+117
+00:02:22,959 --> 00:02:25,190
+Paving the way for the AI we know today
+in more recent times advancements in
+
+118
+00:02:25,190 --> 00:02:25,200
+in more recent times advancements in
+ 
+
+119
+00:02:25,200 --> 00:02:27,270
+in more recent times advancements in
+Hardware technology allowed for the
+
+120
+00:02:27,270 --> 00:02:27,280
+Hardware technology allowed for the
+ 
+
+121
+00:02:27,280 --> 00:02:29,350
+Hardware technology allowed for the
+development of advanced masch learning
+
+122
+00:02:29,350 --> 00:02:29,360
+development of advanced masch learning
+ 
+
+123
+00:02:29,360 --> 00:02:32,589
+development of advanced masch learning
+algorith particularly neural networks
+
+124
+00:02:32,589 --> 00:02:32,599
+algorith particularly neural networks
+ 
+
+125
+00:02:32,599 --> 00:02:34,630
+algorith particularly neural networks
+these Innovation significantly improved
+
+126
+00:02:34,630 --> 00:02:34,640
+these Innovation significantly improved
+ 
+
+127
+00:02:34,640 --> 00:02:36,869
+these Innovation significantly improved
+natural language processing enabling
+
+128
+00:02:36,869 --> 00:02:36,879
+natural language processing enabling
+ 
+
+129
+00:02:36,879 --> 00:02:38,910
+natural language processing enabling
+machines to understand the context of
+
+130
+00:02:38,910 --> 00:02:38,920
+machines to understand the context of
+ 
+
+131
+00:02:38,920 --> 00:02:40,190
+machines to understand the context of
+words in
+
+132
+00:02:40,190 --> 00:02:40,200
+words in
+ 
+
+133
+00:02:40,200 --> 00:02:42,630
+words in
+sentences this breakthrough technology
+
+134
+00:02:42,630 --> 00:02:42,640
+sentences this breakthrough technology
+ 
+
+135
+00:02:42,640 --> 00:02:44,630
+sentences this breakthrough technology
+powered the birth of viritual assistance
+
+136
+00:02:44,630 --> 00:02:44,640
+powered the birth of viritual assistance
+ 
+
+137
+00:02:44,640 --> 00:02:47,430
+powered the birth of viritual assistance
+in the early 21st century and this
+
+138
+00:02:47,430 --> 00:02:47,440
+in the early 21st century and this
+ 
+
+139
+00:02:47,440 --> 00:02:49,390
+in the early 21st century and this
+virtual assistance excelled at
+
+140
+00:02:49,390 --> 00:02:49,400
+virtual assistance excelled at
+ 
+
+141
+00:02:49,400 --> 00:02:51,550
+virtual assistance excelled at
+interpreting human language identifying
+
+142
+00:02:51,550 --> 00:02:51,560
+interpreting human language identifying
+ 
+
+143
+00:02:51,560 --> 00:02:54,229
+interpreting human language identifying
+needs and taking actions to fulfill them
+
+144
+00:02:54,229 --> 00:02:54,239
+needs and taking actions to fulfill them
+ 
+
+145
+00:02:54,239 --> 00:02:56,070
+needs and taking actions to fulfill them
+such as answering queries with
+
+146
+00:02:56,070 --> 00:02:56,080
+such as answering queries with
+ 
+
+147
+00:02:56,080 --> 00:02:58,270
+such as answering queries with
+predefined scripts or connecting to
+
+148
+00:02:58,270 --> 00:02:58,280
+predefined scripts or connecting to
+ 
+
+149
+00:02:58,280 --> 00:03:01,470
+predefined scripts or connecting to
+third part services and so we arrived at
+
+150
+00:03:01,470 --> 00:03:01,480
+third part services and so we arrived at
+ 
+
+151
+00:03:01,480 --> 00:03:04,710
+third part services and so we arrived at
+generative AI a subset of deep learning
+
+152
+00:03:04,710 --> 00:03:04,720
+generative AI a subset of deep learning
+ 
+
+153
+00:03:04,720 --> 00:03:07,350
+generative AI a subset of deep learning
+after Decades of AI research a new model
+
+154
+00:03:07,350 --> 00:03:07,360
+after Decades of AI research a new model
+ 
+
+155
+00:03:07,360 --> 00:03:09,750
+after Decades of AI research a new model
+architecture known as the Transformer
+
+156
+00:03:09,750 --> 00:03:09,760
+architecture known as the Transformer
+ 
+
+157
+00:03:09,760 --> 00:03:12,509
+architecture known as the Transformer
+emerged Transformers could handle longer
+
+158
+00:03:12,509 --> 00:03:12,519
+emerged Transformers could handle longer
+ 
+
+159
+00:03:12,519 --> 00:03:15,030
+emerged Transformers could handle longer
+tax sequences as input and were based on
+
+160
+00:03:15,030 --> 00:03:15,040
+tax sequences as input and were based on
+ 
+
+161
+00:03:15,040 --> 00:03:17,430
+tax sequences as input and were based on
+the attention mechanism enabling them to
+
+162
+00:03:17,430 --> 00:03:17,440
+the attention mechanism enabling them to
+ 
+
+163
+00:03:17,440 --> 00:03:19,990
+the attention mechanism enabling them to
+focus on the most relevant information
+
+164
+00:03:19,990 --> 00:03:20,000
+focus on the most relevant information
+ 
+
+165
+00:03:20,000 --> 00:03:22,710
+focus on the most relevant information
+regardless of its order in the text
+
+166
+00:03:22,710 --> 00:03:22,720
+regardless of its order in the text
+ 
+
+167
+00:03:22,720 --> 00:03:25,350
+regardless of its order in the text
+today most generative AI models often
+
+168
+00:03:25,350 --> 00:03:25,360
+today most generative AI models often
+ 
+
+169
+00:03:25,360 --> 00:03:28,149
+today most generative AI models often
+referred to as large language models are
+
+170
+00:03:28,149 --> 00:03:28,159
+referred to as large language models are
+ 
+
+171
+00:03:28,159 --> 00:03:31,190
+referred to as large language models are
+built upon the Transformer AR Ure these
+
+172
+00:03:31,190 --> 00:03:31,200
+built upon the Transformer AR Ure these
+ 
+
+173
+00:03:31,200 --> 00:03:33,470
+built upon the Transformer AR Ure these
+models train on vast amounts of data
+
+174
+00:03:33,470 --> 00:03:33,480
+models train on vast amounts of data
+ 
+
+175
+00:03:33,480 --> 00:03:35,949
+models train on vast amounts of data
+from sources like books articles and
+
+176
+00:03:35,949 --> 00:03:35,959
+from sources like books articles and
+ 
+
+177
+00:03:35,959 --> 00:03:39,350
+from sources like books articles and
+websites possess a unique adaptability
+
+178
+00:03:39,350 --> 00:03:39,360
+websites possess a unique adaptability
+ 
+
+179
+00:03:39,360 --> 00:03:41,550
+websites possess a unique adaptability
+they can tackle a wide range of task and
+
+180
+00:03:41,550 --> 00:03:41,560
+they can tackle a wide range of task and
+ 
+
+181
+00:03:41,560 --> 00:03:43,789
+they can tackle a wide range of task and
+generate grammatical correct text with a
+
+182
+00:03:43,789 --> 00:03:43,799
+generate grammatical correct text with a
+ 
+
+183
+00:03:43,799 --> 00:03:45,429
+generate grammatical correct text with a
+hint of
+
+184
+00:03:45,429 --> 00:03:45,439
+hint of
+ 
+
+185
+00:03:45,439 --> 00:03:47,990
+hint of
+creativity but let's dive deeper into
+
+186
+00:03:47,990 --> 00:03:48,000
+creativity but let's dive deeper into
+ 
+
+187
+00:03:48,000 --> 00:03:50,589
+creativity but let's dive deeper into
+the mechanism of large language models
+
+188
+00:03:50,589 --> 00:03:50,599
+the mechanism of large language models
+ 
+
+189
+00:03:50,599 --> 00:03:52,670
+the mechanism of large language models
+and shed light on the inner workings of
+
+190
+00:03:52,670 --> 00:03:52,680
+and shed light on the inner workings of
+ 
+
+191
+00:03:52,680 --> 00:03:55,470
+and shed light on the inner workings of
+models like open
+
+192
+00:03:55,470 --> 00:03:55,480
+models like open
+ 
+
+193
+00:03:55,480 --> 00:03:58,830
+models like open
+GPT one of the key Concepts to grasp is
+
+194
+00:03:58,830 --> 00:03:58,840
+GPT one of the key Concepts to grasp is
+ 
+
+195
+00:03:58,840 --> 00:04:00,229
+GPT one of the key Concepts to grasp is
+tokenization
+
+196
+00:04:00,229 --> 00:04:00,239
+tokenization
+ 
+
+197
+00:04:00,239 --> 00:04:02,550
+tokenization
+large language models receive text as
+
+198
+00:04:02,550 --> 00:04:02,560
+large language models receive text as
+ 
+
+199
+00:04:02,560 --> 00:04:06,229
+large language models receive text as
+input and produce text as output however
+
+200
+00:04:06,229 --> 00:04:06,239
+input and produce text as output however
+ 
+
+201
+00:04:06,239 --> 00:04:08,390
+input and produce text as output however
+these models work much more efficiently
+
+202
+00:04:08,390 --> 00:04:08,400
+these models work much more efficiently
+ 
+
+203
+00:04:08,400 --> 00:04:10,990
+these models work much more efficiently
+with numbers than withdraw text
+
+204
+00:04:10,990 --> 00:04:11,000
+with numbers than withdraw text
+ 
+
+205
+00:04:11,000 --> 00:04:13,270
+with numbers than withdraw text
+sequences that's where the tokenizer
+
+206
+00:04:13,270 --> 00:04:13,280
+sequences that's where the tokenizer
+ 
+
+207
+00:04:13,280 --> 00:04:16,469
+sequences that's where the tokenizer
+comes into play a token is essentially a
+
+208
+00:04:16,469 --> 00:04:16,479
+comes into play a token is essentially a
+ 
+
+209
+00:04:16,479 --> 00:04:18,629
+comes into play a token is essentially a
+chunk of text which can vary in length
+
+210
+00:04:18,629 --> 00:04:18,639
+chunk of text which can vary in length
+ 
+
+211
+00:04:18,639 --> 00:04:21,030
+chunk of text which can vary in length
+and typically consist of a sequence of
+
+212
+00:04:21,030 --> 00:04:21,040
+and typically consist of a sequence of
+ 
+
+213
+00:04:21,040 --> 00:04:23,909
+and typically consist of a sequence of
+characters the tokenizer primary job is
+
+214
+00:04:23,909 --> 00:04:23,919
+characters the tokenizer primary job is
+ 
+
+215
+00:04:23,919 --> 00:04:26,230
+characters the tokenizer primary job is
+to break down the input tax into an
+
+216
+00:04:26,230 --> 00:04:26,240
+to break down the input tax into an
+ 
+
+217
+00:04:26,240 --> 00:04:28,070
+to break down the input tax into an
+array of these
+
+218
+00:04:28,070 --> 00:04:28,080
+array of these
+ 
+
+219
+00:04:28,080 --> 00:04:31,070
+array of these
+tokens once we have these tokens they
+
+220
+00:04:31,070 --> 00:04:31,080
+tokens once we have these tokens they
+ 
+
+221
+00:04:31,080 --> 00:04:34,189
+tokens once we have these tokens they
+are further ma to token indices and
+
+222
+00:04:34,189 --> 00:04:34,199
+are further ma to token indices and
+ 
+
+223
+00:04:34,199 --> 00:04:36,029
+are further ma to token indices and
+these token indices are essentially
+
+224
+00:04:36,029 --> 00:04:36,039
+these token indices are essentially
+ 
+
+225
+00:04:36,039 --> 00:04:38,430
+these token indices are essentially
+integer and codings of the original text
+
+226
+00:04:38,430 --> 00:04:38,440
+integer and codings of the original text
+ 
+
+227
+00:04:38,440 --> 00:04:41,110
+integer and codings of the original text
+Chance making it easier for the model to
+
+228
+00:04:41,110 --> 00:04:41,120
+Chance making it easier for the model to
+ 
+
+229
+00:04:41,120 --> 00:04:43,830
+Chance making it easier for the model to
+process and
+
+230
+00:04:43,830 --> 00:04:43,840
+process and
+ 
+
+231
+00:04:43,840 --> 00:04:46,870
+process and
+understand now let's move to predicting
+
+232
+00:04:46,870 --> 00:04:46,880
+understand now let's move to predicting
+ 
+
+233
+00:04:46,880 --> 00:04:50,150
+understand now let's move to predicting
+output tokens given an input sequence of
+
+234
+00:04:50,150 --> 00:04:50,160
+output tokens given an input sequence of
+ 
+
+235
+00:04:50,160 --> 00:04:53,870
+output tokens given an input sequence of
+n tokens with n baring from one model to
+
+236
+00:04:53,870 --> 00:04:53,880
+n tokens with n baring from one model to
+ 
+
+237
+00:04:53,880 --> 00:04:56,230
+n tokens with n baring from one model to
+another the model is designed to predict
+
+238
+00:04:56,230 --> 00:04:56,240
+another the model is designed to predict
+ 
+
+239
+00:04:56,240 --> 00:04:59,590
+another the model is designed to predict
+a single tokens as output but here
+
+240
+00:04:59,590 --> 00:04:59,600
+a single tokens as output but here
+ 
+
+241
+00:04:59,600 --> 00:05:02,230
+a single tokens as output but here
+here's where it gets interesting the
+
+242
+00:05:02,230 --> 00:05:02,240
+here's where it gets interesting the
+ 
+
+243
+00:05:02,240 --> 00:05:04,469
+here's where it gets interesting the
+predicted token is then incorporated
+
+244
+00:05:04,469 --> 00:05:04,479
+predicted token is then incorporated
+ 
+
+245
+00:05:04,479 --> 00:05:07,070
+predicted token is then incorporated
+into the input of the next iteration
+
+246
+00:05:07,070 --> 00:05:07,080
+into the input of the next iteration
+ 
+
+247
+00:05:07,080 --> 00:05:09,950
+into the input of the next iteration
+creating an expanding window pattern and
+
+248
+00:05:09,950 --> 00:05:09,960
+creating an expanding window pattern and
+ 
+
+249
+00:05:09,960 --> 00:05:12,029
+creating an expanding window pattern and
+this pattern allows the model to provide
+
+250
+00:05:12,029 --> 00:05:12,039
+this pattern allows the model to provide
+ 
+
+251
+00:05:12,039 --> 00:05:14,870
+this pattern allows the model to provide
+more coherent and contextually relevant
+
+252
+00:05:14,870 --> 00:05:14,880
+more coherent and contextually relevant
+ 
+
+253
+00:05:14,880 --> 00:05:17,510
+more coherent and contextually relevant
+responses often extending to one or
+
+254
+00:05:17,510 --> 00:05:17,520
+responses often extending to one or
+ 
+
+255
+00:05:17,520 --> 00:05:19,029
+responses often extending to one or
+multiple
+
+256
+00:05:19,029 --> 00:05:19,039
+multiple
+ 
+
+257
+00:05:19,039 --> 00:05:22,070
+multiple
+sentences finally let's dive into the
+
+258
+00:05:22,070 --> 00:05:22,080
+sentences finally let's dive into the
+ 
+
+259
+00:05:22,080 --> 00:05:25,189
+sentences finally let's dive into the
+selection process the model chooses the
+
+260
+00:05:25,189 --> 00:05:25,199
+selection process the model chooses the
+ 
+
+261
+00:05:25,199 --> 00:05:27,950
+selection process the model chooses the
+output token based on its probability of
+
+262
+00:05:27,950 --> 00:05:27,960
+output token based on its probability of
+ 
+
+263
+00:05:27,960 --> 00:05:30,350
+output token based on its probability of
+occurring after the current text
+
+264
+00:05:30,350 --> 00:05:30,360
+occurring after the current text
+ 
+
+265
+00:05:30,360 --> 00:05:32,870
+occurring after the current text
+sequence this probability distribution
+
+266
+00:05:32,870 --> 00:05:32,880
+sequence this probability distribution
+ 
+
+267
+00:05:32,880 --> 00:05:34,629
+sequence this probability distribution
+is calculating using the model's
+
+268
+00:05:34,629 --> 00:05:34,639
+is calculating using the model's
+ 
+
+269
+00:05:34,639 --> 00:05:35,909
+is calculating using the model's
+training
+
+270
+00:05:35,909 --> 00:05:35,919
+training
+ 
+
+271
+00:05:35,919 --> 00:05:39,469
+training
+data however here's the twist the model
+
+272
+00:05:39,469 --> 00:05:39,479
+data however here's the twist the model
+ 
+
+273
+00:05:39,479 --> 00:05:42,029
+data however here's the twist the model
+does always choose the token with the
+
+274
+00:05:42,029 --> 00:05:42,039
+does always choose the token with the
+ 
+
+275
+00:05:42,039 --> 00:05:44,070
+does always choose the token with the
+highest probability from the
+
+276
+00:05:44,070 --> 00:05:44,080
+highest probability from the
+ 
+
+277
+00:05:44,080 --> 00:05:46,350
+highest probability from the
+distribution to simulate the process of
+
+278
+00:05:46,350 --> 00:05:46,360
+distribution to simulate the process of
+ 
+
+279
+00:05:46,360 --> 00:05:49,189
+distribution to simulate the process of
+creative thinking a degree of Randomness
+
+280
+00:05:49,189 --> 00:05:49,199
+creative thinking a degree of Randomness
+ 
+
+281
+00:05:49,199 --> 00:05:52,110
+creative thinking a degree of Randomness
+is introduced into the selection process
+
+282
+00:05:52,110 --> 00:05:52,120
+is introduced into the selection process
+ 
+
+283
+00:05:52,120 --> 00:05:53,670
+is introduced into the selection process
+and this means that the model doesn't
+
+284
+00:05:53,670 --> 00:05:53,680
+and this means that the model doesn't
+ 
+
+285
+00:05:53,680 --> 00:05:56,029
+and this means that the model doesn't
+produce the exact same output for the
+
+286
+00:05:56,029 --> 00:05:56,039
+produce the exact same output for the
+ 
+
+287
+00:05:56,039 --> 00:05:58,590
+produce the exact same output for the
+same input every time and that's the
+
+288
+00:05:58,590 --> 00:05:58,600
+same input every time and that's the
+ 
+
+289
+00:05:58,600 --> 00:06:00,430
+same input every time and that's the
+element that allows gener TBI to
+
+290
+00:06:00,430 --> 00:06:00,440
+element that allows gener TBI to
+ 
+
+291
+00:06:00,440 --> 00:06:05,469
+element that allows gener TBI to
+generate text that feels creative and
+
+292
+00:06:05,469 --> 00:06:05,479
+
+ 
+
+293
+00:06:05,479 --> 00:06:08,029
+
+engaging we say that the main capability
+
+294
+00:06:08,029 --> 00:06:08,039
+engaging we say that the main capability
+ 
+
+295
+00:06:08,039 --> 00:06:10,029
+engaging we say that the main capability
+of a large language model is generating
+
+296
+00:06:10,029 --> 00:06:10,039
+of a large language model is generating
+ 
+
+297
+00:06:10,039 --> 00:06:12,749
+of a large language model is generating
+a text from scratch starting from a
+
+298
+00:06:12,749 --> 00:06:12,759
+a text from scratch starting from a
+ 
+
+299
+00:06:12,759 --> 00:06:15,110
+a text from scratch starting from a
+textual input written in natural
+
+300
+00:06:15,110 --> 00:06:15,120
+textual input written in natural
+ 
+
+301
+00:06:15,120 --> 00:06:17,629
+textual input written in natural
+language but but what kind of textual
+
+302
+00:06:17,629 --> 00:06:17,639
+language but but what kind of textual
+ 
+
+303
+00:06:17,639 --> 00:06:21,070
+language but but what kind of textual
+input and output first of all let me say
+
+304
+00:06:21,070 --> 00:06:21,080
+input and output first of all let me say
+ 
+
+305
+00:06:21,080 --> 00:06:22,870
+input and output first of all let me say
+that the input of a large language model
+
+306
+00:06:22,870 --> 00:06:22,880
+that the input of a large language model
+ 
+
+307
+00:06:22,880 --> 00:06:25,469
+that the input of a large language model
+is known as prompt while the output is
+
+308
+00:06:25,469 --> 00:06:25,479
+is known as prompt while the output is
+ 
+
+309
+00:06:25,479 --> 00:06:28,150
+is known as prompt while the output is
+known as completion term that refers to
+
+310
+00:06:28,150 --> 00:06:28,160
+known as completion term that refers to
+ 
+
+311
+00:06:28,160 --> 00:06:30,309
+known as completion term that refers to
+the model mechanism of generating the
+
+312
+00:06:30,309 --> 00:06:30,319
+the model mechanism of generating the
+ 
+
+313
+00:06:30,319 --> 00:06:32,629
+the model mechanism of generating the
+next token to complete the current input
+
+314
+00:06:32,629 --> 00:06:32,639
+next token to complete the current input
+ 
+
+315
+00:06:32,639 --> 00:06:34,749
+next token to complete the current input
+let's do some examples of prompts and
+
+316
+00:06:34,749 --> 00:06:34,759
+let's do some examples of prompts and
+ 
+
+317
+00:06:34,759 --> 00:06:38,629
+let's do some examples of prompts and
+completions by using the openai CH gbt
+
+318
+00:06:38,629 --> 00:06:38,639
+completions by using the openai CH gbt
+ 
+
+319
+00:06:38,639 --> 00:06:41,350
+completions by using the openai CH gbt
+playground a prompt may include an
+
+320
+00:06:41,350 --> 00:06:41,360
+playground a prompt may include an
+ 
+
+321
+00:06:41,360 --> 00:06:43,629
+playground a prompt may include an
+instruction specifying the type of
+
+322
+00:06:43,629 --> 00:06:43,639
+instruction specifying the type of
+ 
+
+323
+00:06:43,639 --> 00:06:46,749
+instruction specifying the type of
+output we expect from the model such as
+
+324
+00:06:46,749 --> 00:06:46,759
+output we expect from the model such as
+ 
+
+325
+00:06:46,759 --> 00:06:49,029
+output we expect from the model such as
+a request to write an assignment for
+
+326
+00:06:49,029 --> 00:06:49,039
+a request to write an assignment for
+ 
+
+327
+00:06:49,039 --> 00:06:51,110
+a request to write an assignment for
+high school students including four
+
+328
+00:06:51,110 --> 00:06:51,120
+high school students including four
+ 
+
+329
+00:06:51,120 --> 00:06:54,469
+high school students including four
+open-ended questions about Louis 14th
+
+330
+00:06:54,469 --> 00:06:54,479
+open-ended questions about Louis 14th
+ 
+
+331
+00:06:54,479 --> 00:06:56,790
+open-ended questions about Louis 14th
+and this
+
+332
+00:06:56,790 --> 00:06:56,800
+and this
+ 
+
+333
+00:06:56,800 --> 00:07:00,830
+and this
+court a prompt might also include a
+
+334
+00:07:00,830 --> 00:07:00,840
+court a prompt might also include a
+ 
+
+335
+00:07:00,840 --> 00:07:03,230
+court a prompt might also include a
+question asked in the form of a
+
+336
+00:07:03,230 --> 00:07:03,240
+question asked in the form of a
+ 
+
+337
+00:07:03,240 --> 00:07:06,110
+question asked in the form of a
+conversation with an agent like who is
+
+338
+00:07:06,110 --> 00:07:06,120
+conversation with an agent like who is
+ 
+
+339
+00:07:06,120 --> 00:07:09,070
+conversation with an agent like who is
+Louis 14th and why he is an important
+
+340
+00:07:09,070 --> 00:07:09,080
+Louis 14th and why he is an important
+ 
+
+341
+00:07:09,080 --> 00:07:11,270
+Louis 14th and why he is an important
+historical
+
+342
+00:07:11,270 --> 00:07:11,280
+historical
+ 
+
+343
+00:07:11,280 --> 00:07:14,990
+historical
+character another example of prompt is a
+
+344
+00:07:14,990 --> 00:07:15,000
+character another example of prompt is a
+ 
+
+345
+00:07:15,000 --> 00:07:17,749
+character another example of prompt is a
+chunk of text to complete which
+
+346
+00:07:17,749 --> 00:07:17,759
+chunk of text to complete which
+ 
+
+347
+00:07:17,759 --> 00:07:21,430
+chunk of text to complete which
+implicitly is an ask for writing
+
+348
+00:07:21,430 --> 00:07:21,440
+implicitly is an ask for writing
+ 
+
+349
+00:07:21,440 --> 00:07:23,950
+implicitly is an ask for writing
+assistance the examples I justed are
+
+350
+00:07:23,950 --> 00:07:23,960
+assistance the examples I justed are
+ 
+
+351
+00:07:23,960 --> 00:07:26,469
+assistance the examples I justed are
+quite simple and won't be an exhaustive
+
+352
+00:07:26,469 --> 00:07:26,479
+quite simple and won't be an exhaustive
+ 
+
+353
+00:07:26,479 --> 00:07:28,510
+quite simple and won't be an exhaustive
+demonstration of large language models
+
+354
+00:07:28,510 --> 00:07:28,520
+demonstration of large language models
+ 
+
+355
+00:07:28,520 --> 00:07:30,990
+demonstration of large language models
+capabilities they just want to show the
+
+356
+00:07:30,990 --> 00:07:31,000
+capabilities they just want to show the
+ 
+
+357
+00:07:31,000 --> 00:07:33,469
+capabilities they just want to show the
+potential of using generative AI in
+
+358
+00:07:33,469 --> 00:07:33,479
+potential of using generative AI in
+ 
+
+359
+00:07:33,479 --> 00:07:35,430
+potential of using generative AI in
+particular but not limited to the
+
+360
+00:07:35,430 --> 00:07:35,440
+particular but not limited to the
+ 
+
+361
+00:07:35,440 --> 00:07:36,749
+particular but not limited to the
+educational
+
+362
+00:07:36,749 --> 00:07:36,759
+educational
+ 
+
+363
+00:07:36,759 --> 00:07:39,230
+educational
+context that's all for this lesson in
+
+364
+00:07:39,230 --> 00:07:39,240
+context that's all for this lesson in
+ 
+
+365
+00:07:39,240 --> 00:07:40,629
+context that's all for this lesson in
+the following lesson we are going to
+
+366
+00:07:40,629 --> 00:07:40,639
+the following lesson we are going to
+ 
+
+367
+00:07:40,639 --> 00:07:42,830
+the following lesson we are going to
+explore different types of generative AI
+
+368
+00:07:42,830 --> 00:07:42,840
+explore different types of generative AI
+ 
+
+369
+00:07:42,840 --> 00:07:45,029
+explore different types of generative AI
+models and we're going to cover how to
+
+370
+00:07:45,029 --> 00:07:45,039
+models and we're going to cover how to
+ 
+
+371
+00:07:45,039 --> 00:07:47,869
+models and we're going to cover how to
+test iterate to improve performance and
+
+372
+00:07:47,869 --> 00:07:47,879
+test iterate to improve performance and
+ 
+
+373
+00:07:47,879 --> 00:07:49,670
+test iterate to improve performance and
+compare different models to find the
+
+374
+00:07:49,670 --> 00:07:49,680
+compare different models to find the
+ 
+
+375
+00:07:49,680 --> 00:07:54,919
+compare different models to find the
+most suitable for a specific use case
+

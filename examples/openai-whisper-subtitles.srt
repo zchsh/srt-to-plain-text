@@ -1,0 +1,412 @@
+1
+00:00:00,000 --> 00:00:06,000
+Hi everyone, and welcome to the first lesson of the Generative AI for Beginners course.
+
+2
+00:00:06,000 --> 00:00:11,760
+This course is based on an open source curriculum with the same name available on GitHub.
+
+3
+00:00:11,760 --> 00:00:16,840
+I'm Carlotta Castelluccio, AI Cloud Advocate at Microsoft, and in this video I'm going
+
+4
+00:00:16,840 --> 00:00:22,000
+to introduce you to Generative AI and large language models.
+
+5
+00:00:22,000 --> 00:00:26,760
+Large language models represent the pinnacle of AI technology, pushing the boundaries of
+
+6
+00:00:26,760 --> 00:00:30,560
+what was once thought impossible.
+
+7
+00:00:30,560 --> 00:00:35,400
+They've conquered numerous challenges that older language models struggled with, achieving
+
+8
+00:00:35,400 --> 00:00:38,960
+human level performance in various tasks.
+
+9
+00:00:38,960 --> 00:00:43,800
+They have several capabilities and applications, but for this course we'll explore how large
+
+10
+00:00:43,800 --> 00:00:49,640
+language models are revolutionizing education through a fictional startup that we'll be
+
+11
+00:00:49,640 --> 00:00:53,080
+referring to as our startup.
+
+12
+00:00:53,080 --> 00:00:58,200
+Our startup works in the education domain with the ambitious mission of improving accessibility
+
+13
+00:00:58,200 --> 00:01:04,720
+in learning on a global scale, ensuring equitable access to education and providing personalized
+
+14
+00:01:04,720 --> 00:01:09,200
+learning experiences to every learner according to their needs.
+
+15
+00:01:09,200 --> 00:01:15,360
+In this course we'll delve into how our startup harnesses the power of Generative AI to unlock
+
+16
+00:01:15,360 --> 00:01:17,640
+new possibilities in education.
+
+17
+00:01:18,040 --> 00:01:23,400
+We'll also examine how they address the inevitable challenges tied to the social impact of this
+
+18
+00:01:23,400 --> 00:01:27,320
+technology and its technology limitations.
+
+19
+00:01:27,320 --> 00:01:32,920
+But let's start by defining some basic concepts we'll be using throughout the course.
+
+20
+00:01:32,920 --> 00:01:37,840
+Despite the recent types surrounding Generative AI, this technology has been decades in the
+
+21
+00:01:37,840 --> 00:01:43,400
+making with its origins tracing back to the 1950s, 1960s.
+
+22
+00:01:43,400 --> 00:01:49,720
+The earliest AI prototypes consisted of typewritten chatbots relying on knowledge bases maintained
+
+23
+00:01:49,720 --> 00:01:51,640
+by experts.
+
+24
+00:01:51,640 --> 00:01:56,920
+These chatbots generated responses based on keywords found in user input, but it soon
+
+25
+00:01:56,920 --> 00:02:01,320
+became clear that this approach had scalability limitations.
+
+26
+00:02:01,320 --> 00:02:07,200
+A significant turning point arrived in the 1990s, when a statistical approach was applied
+
+27
+00:02:07,200 --> 00:02:09,400
+to text analysis.
+
+28
+00:02:09,400 --> 00:02:13,680
+This gave birth to machine learning algorithms which could learn patterns from data without
+
+29
+00:02:13,680 --> 00:02:16,000
+explicit programming.
+
+30
+00:02:16,000 --> 00:02:20,560
+These algorithms allowed machines to simulate human language understanding, paving the way
+
+31
+00:02:20,560 --> 00:02:23,120
+for the AI we know today.
+
+32
+00:02:23,120 --> 00:02:28,120
+In more recent times, advancements in hardware technology allowed for the development of
+
+33
+00:02:28,120 --> 00:02:32,760
+advanced machine learning algorithms, particularly neural networks.
+
+34
+00:02:32,760 --> 00:02:37,280
+These innovations significantly improved natural language processing, enabling machines
+
+35
+00:02:37,280 --> 00:02:41,320
+to understand the context of words in sentences.
+
+36
+00:02:41,320 --> 00:02:47,240
+This breakthrough technology powered the birth of virtual assistants in the early 21st century.
+
+37
+00:02:47,240 --> 00:02:52,600
+And these virtual assistants excelled at interpreting human language, identifying needs, and taking
+
+38
+00:02:52,600 --> 00:02:58,080
+actions to fulfill them, such as answering queries with predefined scripts or connecting
+
+39
+00:02:58,080 --> 00:03:00,280
+to third-part services.
+
+40
+00:03:00,280 --> 00:03:04,960
+And so we arrived at Generative AI, a subset of deep learning.
+
+41
+00:03:04,960 --> 00:03:11,400
+After decades of AI research, a new model architecture known as the transformer emerged.
+
+42
+00:03:11,400 --> 00:03:16,760
+Transformers could handle longer text sequences as input and were based on the attention mechanism,
+
+43
+00:03:16,760 --> 00:03:22,800
+enabling them to focus on the most relevant information regardless of its order in a text.
+
+44
+00:03:22,800 --> 00:03:28,800
+Today, most generative AI models, often referred to as large-language models, are built upon
+
+45
+00:03:28,800 --> 00:03:31,120
+the transformer architecture.
+
+46
+00:03:31,120 --> 00:03:36,920
+These models, trained on vast amounts of data from sources like books, articles, and websites,
+
+47
+00:03:36,920 --> 00:03:39,480
+possess a unique adaptability.
+
+48
+00:03:39,480 --> 00:03:44,040
+They can tackle a wide range of tasks and generate grammatical correct text with a hint
+
+49
+00:03:44,040 --> 00:03:45,240
+of creativity.
+
+50
+00:03:45,240 --> 00:03:51,560
+But let's dive deeper into the mechanism of large-language models and shed light on
+
+51
+00:03:51,560 --> 00:03:56,600
+the inner workings of models like OpenAI, GPT.
+
+52
+00:03:56,600 --> 00:04:00,520
+One of the key concepts to grasp is tokenization.
+
+53
+00:04:00,520 --> 00:04:05,280
+Large-language models receive text as input and produce text as output.
+
+54
+00:04:05,280 --> 00:04:11,440
+However, these models work much more efficiently with numbers than with raw text sequences.
+
+55
+00:04:11,440 --> 00:04:14,960
+That's where the dokinizer comes into play.
+
+56
+00:04:14,960 --> 00:04:20,000
+A token is essentially a chunk of text which can vary in length and typically consist of
+
+57
+00:04:20,000 --> 00:04:22,200
+a sequence of characters.
+
+58
+00:04:22,200 --> 00:04:29,320
+The dokinizer's primary job is to break down the input text into an array of these tokens.
+
+59
+00:04:29,320 --> 00:04:34,280
+Once we have these tokens, they are further mapped to token indices.
+
+60
+00:04:34,280 --> 00:04:39,640
+And these token indices are essentially integer encodings of the original text chunks, making
+
+61
+00:04:39,640 --> 00:04:43,680
+it easier for the model to process and understand.
+
+62
+00:04:43,680 --> 00:04:48,960
+Now, let's move to predicting output tokens.
+
+63
+00:04:48,960 --> 00:04:55,160
+Given an input sequence of N tokens, with N barring from one model to another, the model
+
+64
+00:04:55,160 --> 00:04:59,280
+is designed to predict the single tokens as output.
+
+65
+00:04:59,280 --> 00:05:02,240
+But here's where it gets interesting.
+
+66
+00:05:02,240 --> 00:05:07,520
+The predicted token is then incorporated into the input of the next iteration, creating
+
+67
+00:05:07,520 --> 00:05:10,000
+an expanding window pattern.
+
+68
+00:05:10,000 --> 00:05:15,920
+And this pattern allows the model to provide more coherent and contextually relevant responses,
+
+69
+00:05:15,920 --> 00:05:19,400
+often extending to one or multiple sentences.
+
+70
+00:05:19,400 --> 00:05:24,200
+Finally, let's delve into the selection process.
+
+71
+00:05:24,200 --> 00:05:29,760
+The model chooses the output token base on its probability of occurring after the current
+
+72
+00:05:29,760 --> 00:05:31,520
+text sequence.
+
+73
+00:05:31,520 --> 00:05:36,360
+This probability distribution is calculating using the model's training data.
+
+74
+00:05:36,360 --> 00:05:39,120
+However, here's the twist.
+
+75
+00:05:39,120 --> 00:05:45,280
+The model does always choose the token with the highest probability from the distribution.
+
+76
+00:05:45,280 --> 00:05:50,440
+To simulate the process of creative thinking, a degree of randomness is introduced into
+
+77
+00:05:50,440 --> 00:05:52,280
+the selection process.
+
+78
+00:05:52,280 --> 00:05:56,960
+And this means that the model doesn't produce the exact same output for the same input every
+
+79
+00:05:56,960 --> 00:05:58,280
+time.
+
+80
+00:05:58,280 --> 00:06:03,240
+And that's the element that allows generative AI to generate text that feels creative and
+
+81
+00:06:03,240 --> 00:06:06,640
+engaging.
+
+82
+00:06:06,640 --> 00:06:12,360
+We say that the main capability of a large language model is generating a text from scratch,
+
+83
+00:06:12,360 --> 00:06:16,560
+starting from a textual input written in natural language.
+
+84
+00:06:16,560 --> 00:06:19,840
+But what kind of textual input and output?
+
+85
+00:06:19,840 --> 00:06:24,720
+First of all, let me say that the input of a large language model is known as prompt,
+
+86
+00:06:24,720 --> 00:06:30,120
+while the output is known as completion, term that refers to the model mechanism of generating
+
+87
+00:06:30,120 --> 00:06:32,800
+the next token to complete the current input.
+
+88
+00:06:32,800 --> 00:06:39,640
+Let's do some examples of prompts and completions by using the OpenAI chatGBT playground.
+
+89
+00:06:39,640 --> 00:06:46,240
+A prompt may include an instruction specifying the type of output we expect from the model,
+
+90
+00:06:46,240 --> 00:06:51,760
+such as a request to write an assignment for high school students including four open-ended
+
+91
+00:06:51,760 --> 00:06:57,840
+questions about Louis XIV and his court.
+
+92
+00:06:57,840 --> 00:07:05,040
+A prompt might also include a question asked in the form of a conversation with an agent,
+
+93
+00:07:05,040 --> 00:07:12,440
+like who is Louis XIV and why he is an important historical character.
+
+94
+00:07:12,440 --> 00:07:20,160
+Another example of prompt is a chunk of text to complete, which implicitly is an ask for
+
+95
+00:07:20,160 --> 00:07:22,560
+writing assistance.
+
+96
+00:07:22,560 --> 00:07:27,560
+The examples I just did are quite simple and won't be an exhaustive demonstration of large
+
+97
+00:07:27,560 --> 00:07:29,560
+language models capabilities.
+
+98
+00:07:29,560 --> 00:07:34,880
+They just want to show the potential of using generative AI, in particular but not limited
+
+99
+00:07:34,880 --> 00:07:37,960
+to the educational context.
+
+100
+00:07:37,960 --> 00:07:39,240
+That's all for this lesson.
+
+101
+00:07:39,240 --> 00:07:43,760
+In the following lesson, we're going to explore different types of generative AI models and
+
+102
+00:07:43,760 --> 00:07:48,760
+we're going to cover how to test, iterate to improve performance and compare different
+
+103
+00:07:48,760 --> 00:07:52,200
+models to find the most suitable for a specific use case.
+
